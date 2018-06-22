@@ -43,6 +43,7 @@
                             <a href="{{ route('users.show', $user->id) }}">{{ $user->name }}</a>
                         @endforeach
                     </div>
+                    
                 </div>
             </div>
             <p class="text-center"><a href="{{ $item->url }}" target="_blank">楽天詳細ページへ</a></p>
